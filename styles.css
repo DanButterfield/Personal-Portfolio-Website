@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    color: #555;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+
+.main-header {
+    background-color: #1e3a5f;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+    position: relative;
+}
+
+.name-intro {
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+}
+
+.center-message{
+    font-size:1.5em ;
+    margin-top: 0.5em;
+    text-align: center;
+    color: white;
+}
+
+/* Navigation */
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1em 0;
+    background-color: #333;
+}
+
+
+.nav li {
+    margin: 0 1em; 
+}
+
+.nav a:hover{
+    background-color: #D3D3D3;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.content {
+    margin: 1.5em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+/* About CSS */
+
+#about {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+#about ul li {
+    margin: 0.5em 0;
+}
+
+/* Project CSS */
+
+#projects {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#projects ul li{
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+#projects ul li:hover{
+    transform: scale(1.05);
+
+}
+
+/* Contact CSS */
+
+#contact {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#contact h2{
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#contact ul li{
+    margin: 1em;
+}
+
+/* CV CSS */
+
+#CV {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#CV h2{
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+#CV ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#CV ul li{
+    margin: 1em;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #555;
+}
+
+.button-link {
+    background-color: #333;
+    color: white;
+    padding: 0.7em 1.5em;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5em;
+}
+
+.button-link:hover {
+    background-color: #555;
+}
+
+.site-footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.footer-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-links{
+    list-style:none;
+    padding: 0;
+    margin: 1em 0;
+    
+}
+
+.footer-links a{
+    color: #fff;
+    display:inline;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.footer-links a:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+.site-footer p {
+    margin: 0.5em 0;
+    color: #ededed;
+}
+
+.footer-p{
+    color: #ededed;;
+}
+
+.footer-links a:visited{
+    color: #c7c7c7;
+}
